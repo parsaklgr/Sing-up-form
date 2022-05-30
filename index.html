@@ -3,9 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <link href="./style/style.css" rel="stylesheet" type="text/css">
+    <script src="./code/script.js" defer></script>
     <title>Sign up form</title>
 </head>
 <body>
-    
+    <section>
+        <section>
+            <section></section>
+            <section id="logo">
+                <img src="./image/odin-lined.png" alt="Odin Logo">
+                <p>Odin</p>
+            </section>
+            <section></section>
+        </section>
+        <section>
+            <p>Photo by <a href="https://unsplash.com/@diana_serbichenko">Diana Serbichenko</a> on <a
+                href="https://unsplash.com/photos/cLT2CCANNtk">Unsplash</a></p>
+        </section>
+    </section>
+    <form>
+        <section>
+            <p>This is not a real online service! You know you need something like this in your life to help you
+                realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> you want to.</p>
+        </section>
+        <fieldset>
+            <p>Let's do this!</p>
+            <section id="inputs">
+                <p>
+                    <label for="first-name">FIRST NAME</label>
+                    <input id="first-name" type="text" name="first-name">
+                </p>
+                <p>
+                    <label for="last-name">LAST NAME</label>
+                    <input id="last-name" type="text" name="last-name">
+                </p>
+                <p>
+                    <label for="email">EMAIL</label>
+                    <input id="email" type="email" name="email">
+                </p>
+                <p>
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <input id="phone-number" type="number" name="phone-number">
+                </p>
+                <p>
+                    <label for="password">PASSWORD</label>
+                    <input id="password" type="password" name="password">
+                    <span class="error-message hide">* Passwords do not match</span>
+                </p>
+                <p>
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input id="confirm-password" type="password" name="confirm-password">
+                    <span class="error-message hide">* Passwords do not match</span>
+                </p>
+            </section>
+            
+        </fieldset>
+        <section>
+            <button type="submit">Create Account</button>
+            <p>Already have an account?Log in</p>
+        </section>
+    </form>  
 </body>
 </html>
